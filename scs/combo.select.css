@@ -4,17 +4,16 @@
 /**
  * Wrapper
  */
-.combo-select {
+ .combo-select {
   position: relative;
   max-width: 400px;
   margin-bottom: 0;
-  font: 100% Helvetica, Arial, Sans-serif;
   border: none;
   border-radius: 3px;
 }
 
 .combo-select .combo-input {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 /**
@@ -27,12 +26,13 @@
   margin: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
-  border: 1px #ccc solid;
   width: 100%;
   box-sizing: border-box;
   padding: 12px;
   padding-right: 60px;
   border-radius: 3px;
+  background-color: #fff !important;
+  border: 1px solid #DCDFE6 !important;
 }
 
 .combo-input:focus {
@@ -108,7 +108,7 @@
   height: 100%;
   -webkit-appearance: none;
   opacity: 0;
-  display: none;
+  display: none !important;
 }
 
 
@@ -176,7 +176,7 @@
   left: 0;
   min-width: 100%;
   max-width: 300px;
-  max-height: 300px;
+  max-height: 240px;
   margin: 0;
   padding: 0;
   display: none;
