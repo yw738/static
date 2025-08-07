@@ -4,7 +4,7 @@
 /**
  * Wrapper
  */
-.combo-select {
+ .combo-select {
   position: relative;
   max-width: 400px;
   margin-bottom: 0;
@@ -88,12 +88,12 @@
 .combo-focus {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   /* border-color: #51A7E8; */
-  border-color: #D70C1A;
+  border-color: #1677ff;
 }
 
 .combo-focus input {
   /* border-color: #51A7E8; */
-  border-color: #D70C1A;
+  border-color: #1677ff;
 }
 
 /**
@@ -125,8 +125,8 @@
  */
 .option-hover {
   /* background-color: #006eab; */
-  background-color: #D70C1A;
-  /* D70C1A */
+  background-color: #1677ff;
+  /* 1677ff */
   color: #fff;
 }
 
@@ -140,7 +140,7 @@
 
 .option-item:hover {
   /* background-color: #006eab; */
-  background-color: #D70C1A;
+  background-color: #1677ff;
   color: #fff;
 }
 
