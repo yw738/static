@@ -130,8 +130,7 @@
   
       // 加载参观者图像
       const visitorImg = new Image();
-      visitorImg.src = './visitor.svg'; // 可替换为在线 URL，如 'https://example.com/visitor.svg'
-      visitorImg.src = 'https://gitee.com/yw738/si/raw/master/visitor.svg'; // 可替换为在线 URL，如 'https://example.com/visitor.svg'
+      visitorImg.src = 'https://fastly.jsdelivr.net/gh/yw738/static/visitor.svg'; // 可替换为在线 URL，如 'https://example.com/visitor.svg'
       
       const visitorSize = 64;
       let progress = 0;
@@ -165,4 +164,5 @@
         visitorImg.onload = draw;
       }
     }
+
   })();
